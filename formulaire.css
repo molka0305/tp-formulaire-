@@ -1,0 +1,17 @@
+
+<body>
+
+<?php
+$nom = "Mohamed Ben Salem";
+?>
+
+<div class="student-card">
+    <h1>Fiche étudiant</h1>
+
+    <div class="info">
+        <strong>Nom complet :</strong>
+        <?php echo $nom; ?>
+    </div>
+</div>
+
+</body>
